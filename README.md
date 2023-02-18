@@ -82,7 +82,7 @@ SO-FAST-submit: SO-FAST队提交的所有参赛材料
 
 可供选择的预训练模型包括：`CSRNet`,`CANNet`,`SFCN`,`MCNN`,`SCAR`,`VGG`等,关于各模型的评估性能指标如下<sup>1</sup>：
 
-![eval1](./user_data/asserts/models_comparation.png)
+![eval1](./models_comparation.png)
 
 
 我们同样评估和预训练模型在A榜的结果(不包括计算效率得分)，测试结果如下：
@@ -111,7 +111,7 @@ SO-FAST-submit: SO-FAST队提交的所有参赛材料
 
     其中`icity-harbor-prod.jdcloud.com/automlsl/bmnnsdk`和`jypyter`分别是`{img_id}`和`{img_tag}`，可以使用`docker tag`更新为自己方便的名称。启动docker image以后的结果如下图：
 
-    ![run_snapshot_1](./user_data/asserts/run_snapshot_1.png)
+    ![run_snapshot_1](./run_snapshot_1.png)
 
     * 启动容器的最前面的字符串为容器id： `e54d830d35ec`,后续需要使用
 
